@@ -37,24 +37,27 @@ import MultilevelSelect from 'react-multilevel-select';
 
 // use
 
-<MultilevelSelect items={[
-    {
-        id: 1, 
-        name: 'Value 1',
-        children: [
+<MultilevelSelect 
+        items={[
             {
-                id: 2, 
-                name: 'Sub Value 1',
+                id: 1, 
+                name: 'Value 1',
                 children: [
                     {
-                        id: 3, 
-                        name: 'Sub Sub Value 1',
+                        id: 2, 
+                        name: 'Sub Value 1',
+                        children: [
+                            {
+                                id: 3, 
+                                name: 'Sub Sub Value 1',
+                            }
+                        ]
                     }
                 ]
             }
-        ]
-    }
-]}/>
+        ]}
+        onChange={(e) => console.log(e)}
+/>
 
 
 ```
