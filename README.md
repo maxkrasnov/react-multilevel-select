@@ -1,7 +1,7 @@
 # React Multilevel Select Component
 
 
-Component for building an infinity multilevel <select> element as avito.ru category selector:
+Component for building an infinity multilevel html select element as avito.ru category selector:
 
 
 ![](https://static.maxkrasnov.ru/react-multilevel-select.png)
