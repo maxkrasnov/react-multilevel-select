@@ -11,7 +11,7 @@ See **/example/** on repository.
  
  
  
- ###Props:
+### Props:
  
  
 | Prop          | Description   | Default  |
@@ -25,9 +25,9 @@ See **/example/** on repository.
 
 
 
-###Example:
+### Example:
 
-```js
+```
 // import 
 import MultilevelSelect from 'react-multilevel-select';
 
