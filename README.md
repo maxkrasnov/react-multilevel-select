@@ -1,13 +1,18 @@
 # React Multilevel Select Component
-
 Component for building an infinity multilevel <select> element as avito.ru category selector:
 
-![Screen avito.ru](https://static.maxkrasnov.ru/react-multilevel-select.png)
+
+
+![](https://static.maxkrasnov.ru/react-multilevel-select.png)
+
+
  
 See **/example/** on repository.
  
  
+ 
  ###Props:
+ 
  
 | Prop          | Description   | Default  |
 | ------------- |:-------------:| -----:|
@@ -17,6 +22,8 @@ See **/example/** on repository.
 | spaceSymbol |    Symbol before option label. Default two spaces   |    ```\u00A0\u00A0``` |
 | loadingText | Loading text      |    Загрузка... |
 | className | Root class name for select and option      |    r-multilevel |
+
+
 
 ###Example:
 
