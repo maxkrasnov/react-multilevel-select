@@ -1,6 +1,6 @@
 {
   "name": "react-multilevel-select",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Multilevel Select Component",
   "main": "./src/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "component"
   ],
   "author": "Max Krasnov <me@maxkrasnov.ru>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "prop-types": "^15.7.1",
     "react": "^16.8.1"
