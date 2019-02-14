@@ -1,5 +1,9 @@
 # React Multilevel Select Component
 
+![](https://img.shields.io/npm/v/react-multilevel-select.svg?style=popout-square)
+![](https://img.shields.io/npm/dm/react-multilevel-select.svg?style=popout-square) 
+![](https://img.shields.io/github/last-commit/maxkrasnov/react-multilevel-select.svg?style=popout-square)
+![](https://img.shields.io/npm/l/react-multilevel-select.svg?style=popout-square)
 
 Component for building an infinity multilevel html select element as avito.ru category selector:
 
@@ -16,7 +20,7 @@ See **/example/** on repository.
 
 | Prop          | Description   | Default  |
 | ------------- |:-------------:| -----:|
-| items      | ``` [{ id: 1, name: 'Label 1', children: [{ id: 1, name: 'Label 2' }] }] ``` | - |
+| items      | ``` [{ id: 1, name: 'Label 1', disabled: true, children: [{ id: 1, name: 'Label 2' }] }] ``` | - |
 | onChange      | -      |   - |
 | value | -      |    - |
 | spaceSymbol |    Symbol before option label. Default two spaces   |    ```\u00A0\u00A0``` |
@@ -42,6 +46,7 @@ import MultilevelSelect from 'react-multilevel-select';
             {
                 id: 1, 
                 name: 'Value 1',
+                disabled: true,
                 children: [
                     {
                         id: 2, 
