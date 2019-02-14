@@ -17,7 +17,7 @@ class MultilevelSelect extends Component {
         level++;
         return items.map((item) => {
             return [
-                    <option className={`${this.props.className}__option-${level}`}
+                    <option disabled={item.disabled && item.disabled === true} className={`${this.props.className}__option-${level}`}
                             key={item.id}
                             value={item.id}>{this.props.spaceSymbol.repeat(level)}{item.name}</option>,
                     item.children && item.children.length ? this.renderOptions(item.children, level) : null
@@ -41,6 +41,7 @@ MultilevelSelect.propTypes = {
     items: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.number.isRequired,
         name: PropTypes.string.isRequired,
+        disabled: PropTypes.bool,
         children: PropTypes.array
     })).isRequired,
     onChange: PropTypes.func,
