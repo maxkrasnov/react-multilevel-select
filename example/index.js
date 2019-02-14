@@ -15,6 +15,7 @@ class ExampleClass extends React.Component{
             this.setState({ data: [{
                 id: 1,
                 name: 'Отдел кадров',
+                disabled: true,
                 children:
                     [{
                         id: 3,
@@ -49,6 +50,7 @@ class ExampleClass extends React.Component{
                 {
                     id: 2,
                     name: 'Отдел разработки',
+                    disabled: true,
                     children:
                         [
                             {
@@ -71,6 +73,7 @@ class ExampleClass extends React.Component{
                                 {
                                     id: 101,
                                     name: 'Самара',
+                                    disabled: true,
                                     children: [
                                         {
                                             id: 99,
